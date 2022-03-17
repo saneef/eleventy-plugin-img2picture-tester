@@ -1,0 +1,19 @@
+{
+  "name": "eleventy-plugin-asciidoc-tester",
+  "version": "1.0.0",
+  "description": "This is a project to try out eleventy-plugin-asciidoc for Eleventy.",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "npm run clean",
+    "clean": "rimraf dist",
+    "build": "npx eleventy"
+  },
+  "keywords": [],
+  "author": "Saneef Ansari <hello@saneef.com> (https://saneef.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.3",
+    "eleventy-plugin-img2picture": "^2.0.0",
+    "rimraf": "^3.0.2"
+  }
+}
